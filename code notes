@@ -1,0 +1,147 @@
+/* NEXT SIZE */
+
+.header-outer{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    padding-left: 118px;
+    padding-right: 118px;
+    /* border: solid #000; */
+    
+}
+
+.header-inner {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo {
+    max-width: 129px;
+
+}.header-nav {
+    /* font-family: brandon-grotesque;
+    font-weight: 500;
+    font-style: normal; */
+    display:flex;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+    margin: 0 10px;
+    font-size: 15px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+
+}
+
+.header-nav-item {
+    display: inline-block;
+    vertical-align: middle; 
+    margin: 0 0.93em;
+    padding: 0.618em 0;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+    color:inherit;
+    cursor: pointer;
+    transition: color .3s;
+    
+}
+
+a:hover {
+    color: #c2c2c2;
+    transition: color .3s; }
+
+
+
+
+
+
+    .burger-wrapper input[type="checkbox"] {
+        width: 24px;
+        height: 18px;
+        outline: 3px solid red;
+        opacity: 1; /* Set the opacity to 1 for full visibility */
+        position: absolute;
+        z-index: 4;
+        cursor: pointer; 
+    }
+    
+    .burger-wrapper input:checked ~ .mobile-nav {
+        transform: none;
+    }
+    
+    .mobile-nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 100%;
+        z-index: 2;
+        transform: translateX(-50px);
+        transition: transform 0.3s;
+        border: solid black;
+    }
+    
+    
+    .hamburger-menu_item {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        letter-spacing: .07em;
+        line-height: 1.2em;
+        text-transform: none;
+        color: #000;
+        padding-bottom: 0.618em;
+        text-align: left;
+        
+    }
+
+    <!-- <div class="mobile-menu">
+    <div class="burger-wrapper">
+        <input type="checkbox" />
+        <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+            <path
+                d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z" />
+        </svg>
+    </div>
+    <div class="mobile-nav">
+        <div class="hamburger-menu_item"><a href="#">Feature Films</a></div>
+        <div class="hamburger-menu_item"><a href="#">Short Films</a></div>
+        <div class="hamburger-menu_item"><a href="#">Technology</a></div>
+        <div class="hamburger-menu_item"><a href="#">Careers</a></div>
+        <div class="hamburger-menu_item"><a href="#">Extras</a></div>
+        <div class="hamburger-menu_item"><a href="#">About</a></div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+-->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
